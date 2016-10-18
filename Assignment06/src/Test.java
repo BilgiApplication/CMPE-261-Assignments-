@@ -76,7 +76,7 @@ public class Test {
 			p.close();
 		} catch (IOException iox) {
 		
-			System.out.println("list.txt" + " adli dosya okunamiyor.");
+			System.out.println("list.txt" + " is unreadable.");
 
 		
 
