@@ -21,7 +21,7 @@ public class Test {
 		Seat B = new Seat(10, 1);
 		
 		// print method
-		System.out.println("B " + " Partinda Bu kadar koltuk satildi:" + B.getsoldCount() + "ticket price is :"
+		System.out.println("B " + " Count of Sold:" + B.getsoldCount() + "ticket price is :"
 				+ B.getpriceTicket());
 		// income of b part
 		Seat.partFind(B.getsoldCount(), B.getpriceTicket());
@@ -32,7 +32,7 @@ public class Test {
 		Seat C = new Seat(10, 1);
 		
 		// print method
-		System.out.println("C " + " Partinda Bu kadar koltuk satildi:" + C.getsoldCount() + "ticket price is :"
+		System.out.println("C " + " Count of Sold:" + C.getsoldCount() + "ticket price is :"
 				+ C.getpriceTicket());
 		
 		// income of c part
